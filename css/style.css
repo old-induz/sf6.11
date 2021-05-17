@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1620625389081-4407f7e95401?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1054&q=80') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: grey;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.news {
+    background-color: white;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: o auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid grey;
+}
+
+article:nth-child(even) {
+    background-color: gold;
+}
+
+article a{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

@@ -51,7 +51,7 @@ footer .links > a {
 
 article {
     width: 768px;
-    margin: o auto 32px;
+    margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid grey;
 }
@@ -72,6 +72,11 @@ article a:hover {
 article h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
+}
+
+.txmn::before {
+    content: "New ";
+    color: red;
 }
 
 .article-meta {
